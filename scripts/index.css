@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Noto+Serif&family=Roboto:wght@500;900&family=Rubik:wght@700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html {
+    background-color: #131313;
+    width: 100vw;
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
+.header {
+    background-color: #131313;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 10vw;
+}
+
+.nav-button {
+    color: #848484;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    font-weight: 600;
+    margin: 0 0 0 20px;
+}
+
+.top-content {
+    background-color: #131313;
+    justify-content: space-between;
+    width: 80vw;
+    padding: 0 10vw 40px;
+    display: flex;
+}
+
+.post {
+    width: 25vw;
+    padding-right: 25px;
+}
+
+.post .text {
+    color: #fff;
+    font-size: 17px;
+}
+
+.post .bottom {
+    display: flex;
+    justify-content: left;
+}
+
+.post .btn {
+    width: 70px;
+    height: 30px;
+    background-color: #242424;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 17px;
+    margin-right: 15px;
+}
+
+.post .btn .int {
+    margin-left: 5px;
+    color: white;
+}
+
+.banner {
+    width: 60%;
+    min-width: 250px;
+}
+
+.shop {
+    background-color: #131313;
+    display: block;
+    width: 80vw;
+    padding: 0 10vw 40px;
+}
+
+.categories {
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    padding: 10px;
+}
+
+.categories .title {
+    color: white;
+    margin-right: 5%;
+}
+
+.categories li {
+    color: #848484;
+    list-style: none;
+    cursor: pointer;
+    margin-right: 4%;
+}
+
+.categories li.active {
+    color: white;
+}
+
+.products {
+    flex: 1;
+    padding: 10px;
+}
+
+.tab-id {
+    display: none;
+}
+
+.tab-id.active {
+    display: block;
+}
+
+.items {
+    color: #848484;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 20px;
+}
+
+.item-id {
+    padding: 10px;
+    text-align: center;
+}
+
+.item-id .image {
+    background-size: cover;
+    background-position: center;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto -5px;
+}
+
+.footer {
+    width: 80vw;
+    height: 40px;
+    position: absolute;
+    padding: 40px 10vw 100px;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.footer .links {
+    display: block;
+    color: #848484;
+    margin: 0 0 0 20px;
+    text-align: right;
+}
+
+@media screen and (max-width: 1000px) {
+
+    .footer {
+        font-size: 45px;
+        height: 130px;
+        padding: 100px 10vw 100px;
+    }
+
+    .header {
+        padding: 7vh 10vw;
+    }
+
+    .items {
+        grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+        gap: 40px;
+    }
+
+    .item-id .image {
+        width: 350px;
+        height: 350px;
+    }
+
+    .post .btn {
+        width: 100%;
+        height: 70px;
+        font-size: 25px;
+    }
+
+    .post .text {
+        width: 70vw;
+        font-size: 25px;
+    }
+
+    .nav-button {
+        font-size: 45px;
+    }
+
+    .categories {
+        display: block;
+    }
+
+    .categories .title {
+        position: absolute;
+        font-size: 45px;
+    }
+
+    .categories li {
+        text-align: right;
+        font-size: 17px;
+    }
+
+    .item-id .title {
+        font-size: 17px;
+    }
+
+    .nav-buttons {
+        text-align: right;
+    }
+
+    .top-content {
+        justify-content: center;
+        display: block;
+    }
+
+    .post {
+        padding: 0 0 5vw 5vw;
+    }
+
+    .banner {
+        width: 80%;
+        padding: 5vh 5vw;
+    }
+}
