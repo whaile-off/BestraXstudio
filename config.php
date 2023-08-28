@@ -7,35 +7,51 @@ $config = [
             "default" => true,
             "products" => [
                 "samopis" => [
-                    "title" => "описание",
+                    "title" => "название",
+                    "price" => "1₽",
+					"deskript" => "описание",
                     "image" => "img/product.png"
                 ],
                 "samopis1" => [
-                    "title" => "описание",
+                    "title" => "название",
+                    "price" => "1₽",
+					"deskript" => "описание",
                     "image" => "img/product.png"
                 ],
                 "samopis2" => [
-                    "title" => "описание",
+                    "title" => "название",
+                    "price" => "1₽",
+					"deskript" => "описание",
                     "image" => "img/product.png"
                 ],
                 "samopis3" => [
-                    "title" => "описание",
+                    "title" => "название",
+                    "price" => "1₽",
+					"deskript" => "описание",
                     "image" => "img/product.png"
                 ],
                 "samopis4" => [
-                    "title" => "описание",
+                    "title" => "название",
+                    "price" => "1₽",
+					"deskript" => "описание",
                     "image" => "img/product.png"
                 ],
                 "samopis5" => [
-                    "title" => "описание",
+                    "title" => "название",
+                    "price" => "1₽",
+					"deskript" => "описание",
                     "image" => "img/product.png"
                 ],
                 "samopis6" => [
-                    "title" => "описание",
+                    "title" => "название",
+                    "price" => "1₽",
+					"deskript" => "описание",
                     "image" => "img/product.png"
                 ],
                 "samopis7" => [
-                    "title" => "описание",
+                    "title" => "название",
+                    "price" => "1₽",
+					"deskript" => "описание",
                     "image" => "img/product.png"
                 ],
             ]
@@ -45,7 +61,9 @@ $config = [
             "default" => false,
             "products" => [
                 "samopis" => [
-                    "title" => "описание",
+                    "title" => "название",
+                    "price" => "1₽",
+					"deskript" => "описание",
                     "image" => "img/product.png"
                 ]
             ]
@@ -55,7 +73,9 @@ $config = [
             "default" => false,
             "products" => [
                 "samopis" => [
-                    "title" => "описание",
+                    "title" => "название",
+                    "price" => "1₽",
+					"deskript" => "описание",
                     "image" => "img/product.png"
                 ]
             ]
@@ -65,7 +85,9 @@ $config = [
             "default" => false,
             "products" => [
                 "samopis" => [
-                    "title" => "описание",
+                    "title" => "название",
+                    "price" => "1₽",
+					"deskript" => "описание",
                     "image" => "img/product.png"
                 ]
             ]
